@@ -7,5 +7,8 @@ class Program
     {
         HaloGeneric halo = new HaloGeneric();
         halo.SapaUser("Bagas");
+
+        DataGeneric<string> dataNIM = new DataGeneric<string>("103022300035");
+        dataNIM.PrintData();
     }
 }
